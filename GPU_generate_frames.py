@@ -304,7 +304,7 @@ cc_tag = "cc_clear"
 
 
 if __name__ == "__main__":
-    name = "shortax"
+    name = "shrt0"
 
     REDUCE = 3
     OFFSET = 0
