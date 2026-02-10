@@ -120,7 +120,7 @@ class videoGenMC():
         frame_mcfunc = self.gen_file(0,False)
         #layer 1 frame 0
         frame_mcfunc.write("#replace and kill old armor stand\n")
-        frame_mcfunc.write(f"tp Shortax7 ~89 ~70 ~70 -180 90\n")
+        frame_mcfunc.write(f"tp @p ~89 ~70 ~70 -180 90\n")
         frame_mcfunc.write(f"execute as {self.atEntity(origin_tag)} run execute at {self.atEntity(origin_tag)} run summon armor_stand ~ ~ ~ {self.armor_stand(player_tag)}\n\n")
         frame_mcfunc.write(f"execute as {self.atEntity(origin_tag)} run execute at {self.atEntity(origin_tag)} run summon armor_stand ~ ~ ~ {self.armor_stand(cc_tag)}\n\n")
         frame_mcfunc.write(f"execute as {self.atEntity(origin_tag)} run kill {self.atEntity(origin_tag)}\n")
