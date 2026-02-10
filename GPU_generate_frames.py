@@ -312,7 +312,7 @@ if __name__ == "__main__":
     DELAY = 3
 
     script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-    frames_path = os.path.join(script_dir,"Bad Apple\\data\\shortax\\function\\frames")
+    frames_path = os.path.join(script_dir,"Bad Apple\\data\\DEFAULT\\function\\frames")
     filename = "video.mp4"
 
     vg = videoGenMC(frames_path=frames_path,name=name,video_file=filename,scrpt_dir=script_dir,reduce=REDUCE,gpu_process=True)
